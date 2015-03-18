@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -118,12 +119,12 @@
                                                     <exclude reference="3Yz-Bn-tk1"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <exclude reference="Hx4-qf-BFK"/>
+                                                    <exclude reference="gxS-AF-MFh"/>
                                                     <exclude reference="dbd-yo-rn4"/>
                                                     <exclude reference="Ef3-I0-5Io"/>
                                                     <exclude reference="ISd-Y0-8hn"/>
                                                     <exclude reference="tru-ma-2m4"/>
-                                                    <exclude reference="Hx4-qf-BFK"/>
-                                                    <exclude reference="gxS-AF-MFh"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -133,12 +134,12 @@
                                                     <include reference="3Yz-Bn-tk1"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <include reference="Hx4-qf-BFK"/>
+                                                    <include reference="gxS-AF-MFh"/>
                                                     <include reference="dbd-yo-rn4"/>
                                                     <include reference="Ef3-I0-5Io"/>
                                                     <include reference="ISd-Y0-8hn"/>
                                                     <include reference="tru-ma-2m4"/>
-                                                    <include reference="Hx4-qf-BFK"/>
-                                                    <include reference="gxS-AF-MFh"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -212,10 +213,10 @@
                                                     <exclude reference="TZ1-dp-wuE"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <exclude reference="i0S-tX-pUS"/>
                                                     <exclude reference="9GG-uF-iGr"/>
                                                     <exclude reference="Xzy-ac-zaw"/>
                                                     <exclude reference="v8B-lF-SGh"/>
-                                                    <exclude reference="i0S-tX-pUS"/>
                                                 </mask>
                                             </variation>
                                             <variation key="widthClass=compact">
@@ -224,10 +225,10 @@
                                                     <include reference="TZ1-dp-wuE"/>
                                                 </mask>
                                                 <mask key="constraints">
+                                                    <include reference="i0S-tX-pUS"/>
                                                     <include reference="9GG-uF-iGr"/>
                                                     <include reference="Xzy-ac-zaw"/>
                                                     <include reference="v8B-lF-SGh"/>
-                                                    <include reference="i0S-tX-pUS"/>
                                                 </mask>
                                             </variation>
                                         </tableViewCellContentView>
@@ -295,14 +296,14 @@
                                 <exclude reference="UYy-7c-IE3"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="pQV-CH-vLc"/>
+                                <exclude reference="W7E-5E-69Q"/>
                                 <exclude reference="ycu-xY-BDY"/>
                                 <exclude reference="7RG-Md-Gv0"/>
                                 <exclude reference="9Ep-Vf-zYs"/>
                                 <exclude reference="CpP-PN-PEw"/>
                                 <exclude reference="Ybb-rs-ChV"/>
                                 <exclude reference="k6P-DW-lce"/>
-                                <exclude reference="W7E-5E-69Q"/>
-                                <exclude reference="pQV-CH-vLc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -312,14 +313,14 @@
                                 <include reference="UYy-7c-IE3"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="pQV-CH-vLc"/>
+                                <include reference="W7E-5E-69Q"/>
                                 <include reference="ycu-xY-BDY"/>
                                 <include reference="7RG-Md-Gv0"/>
                                 <include reference="9Ep-Vf-zYs"/>
                                 <include reference="CpP-PN-PEw"/>
                                 <include reference="Ybb-rs-ChV"/>
                                 <include reference="k6P-DW-lce"/>
-                                <include reference="W7E-5E-69Q"/>
-                                <include reference="pQV-CH-vLc"/>
                             </mask>
                         </variation>
                     </view>
